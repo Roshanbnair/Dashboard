@@ -1,0 +1,22 @@
+    Dashboard worlflow - Angular project
+
+1.  Create project  :   ng new admin-dashboard
+2.  run project :   ng serve(in project folder)
+3.  Install/add 3rd party libs to complete project
+        -Install angular-material   -   ng add @angular/material
+            Select pre-selectable themes
+            Select typography
+            Select animation
+                To use any component from Material 
+                    Copy the api for particular component and paste it in app.module.ts
+4.  Delete all contents in appComponent.html file
+5.  TEst weather the lib is working properly or not
+6.  generate COMPONENTS
+    -HEADER
+    -Footer
+    -SIDEBAR
+    -Dashboard
+        -Card
+        -CHART
+        -TABLE
+        -PIE-CHART

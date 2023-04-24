@@ -1,0 +1,12 @@
+mat-drawer-container{
+    height: 85vh;
+}
+mat-drawer{
+ width: 250px;
+}
+mat-drawer-content{
+    padding: 10px;
+}
+app-footer{
+
+}

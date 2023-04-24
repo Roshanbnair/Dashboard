@@ -1,0 +1,35 @@
+.profile{
+    text-align: center;
+}
+.profile h3{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+h2{
+    font-size: medium;
+    padding-left: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.pages{
+display: flex;
+flex-direction: column;
+}
+.pages a{
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    padding: 10px 0 0 10px;
+    transition: 0.5fq   s;
+    display: flex;
+    align-items: center;
+}
+.pages a:hover{
+    background-color: #673ab7;
+    color: white;
+    transition: 0.3s;
+}
+mat-icon{
+    vertical-align: middle;
+    margin-right: 5px;
+}

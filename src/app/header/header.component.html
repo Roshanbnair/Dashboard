@@ -1,0 +1,33 @@
+<!-- <p>header works!</p> -->
+
+    <mat-toolbar color="primary">
+      <button (click)="menuBtnClicked()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Admin</span>
+      <span class="example-spacer"></span>
+      <div style="display: flex;justify-content: end;width: 100%;">
+          <ul style="display: flex;">
+              <li style="list-style: none;">
+                  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                    <mat-icon>settings</mat-icon>
+                  </button>
+              </li>
+              <li style="list-style: none;">
+                  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <mat-icon>help_outline</mat-icon>
+                  </button>
+              </li>
+              <li style="list-style: none;">
+                  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" [matMenuTriggerFor]="menu">
+                    <mat-icon>person_outline</mat-icon>
+                  </button>
+                  <mat-menu #menu="matMenu">
+                    <button mat-menu-item>
+                        <mat-icon>logout</mat-icon>Sign Out
+                    </button>
+                  </mat-menu>
+              </li>
+          </ul>
+      </div>
+    </mat-toolbar>
